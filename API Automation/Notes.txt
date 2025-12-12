@@ -1,0 +1,18 @@
+Create a project folder:
+mkdir playwright-api-automation
+cd playwright-api-automation
+
+Initialize npm:
+npm init -y
+
+Install Playwright:
+npm install -D @playwright/test
+npx playwright install
+
+
+
+Run all tests:
+npx playwright test
+
+Show report:
+npx playwright show-report
