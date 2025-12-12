@@ -1,0 +1,27 @@
+{
+  "name": "auto_assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean:allure": "rimraf allure-results allure-report",
+    "test": "npm run clean:allure && cucumber-js",
+    "allure:generate": "allure generate --clean ./allure-results --output ./allure-report",
+    "allure:open": "allure open ./allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.3.0",
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^24.10.1",
+    "allure": "^3.0.0-beta.26",
+    "allure-commandline": "^2.35.1",
+    "allure-cucumberjs": "^3.4.3",
+    "rimraf": "^6.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

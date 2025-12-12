@@ -1,0 +1,22 @@
+**Web Automation tests to implement**
+
+Download and install Node.js in "https://nodejs.org/en/download"
+
+Run in terminal :
+npm init playwright@latest
+npm install -D @playwright/test@latest
+npm install -g typescript
+npm install --save-dev @cucumber/cucumber
+npm install -D allure-cucumberjs
+
+Run all by : 
+npm test
+
+Run specific scenario by : 
+npm test -- --tags "@TS-03"
+
+Generate Allure Report after the tests are executed:
+allure generate ./allure-results -o ./allure-report
+
+Open the generated report:
+allure open ./allure-report
