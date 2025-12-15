@@ -1,6 +1,7 @@
 **Web Automation tests to implement**
 
-Download and install Node.js in "https://nodejs.org/en/download"
+Instructions:
+Create a project folder (Automation_Assessment) and open folder in VSCode.
 
 Run in terminal :
 npm init playwright@latest
@@ -8,6 +9,7 @@ npm install -D @playwright/test@latest
 npm install -g typescript
 npm install --save-dev @cucumber/cucumber
 npm install -D allure-cucumberjs
+npm install --save-dev rimraf
 
 Run all by : 
 npm test
