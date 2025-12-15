@@ -13,7 +13,7 @@ npm install -D allure-cucumberjs
 npm install --save-dev rimraf
 npm install --save-dev allure-commandline
 
-Transfer the files(src folder, cucumber, AllureReporter, package, package-lock, and tsconfig 
+Transfer the files(src folder, cucumber, AllureReporter, package, package-lock, and tsconfig)
 from /Automation_Assessment-main/Automation_Assessment-main/WEB Automation
 to Automation_Assessment folder
 
@@ -28,3 +28,4 @@ allure generate ./allure-results -o ./allure-report
 
 Open the generated report:
 allure open ./allure-report
+
