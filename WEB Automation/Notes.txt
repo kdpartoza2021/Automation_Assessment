@@ -1,7 +1,8 @@
 **Web Automation tests to implement**
 
 Instructions:
-Create a project folder (Automation_Assessment) and open folder in VSCode.
+
+Create a project folder (Automation_Assessment) and open in VSCode.
 
 Run in terminal :
 npm init playwright@latest
@@ -11,6 +12,10 @@ npm install --save-dev @cucumber/cucumber
 npm install -D allure-cucumberjs
 npm install --save-dev rimraf
 npm install --save-dev allure-commandline
+
+Transfer the files(src folder, cucumber, AllureReporter, package, package-lock, and tsconfig 
+from /Automation_Assessment-main/Automation_Assessment-main/WEB Automation
+to Automation_Assessment folder
 
 Run all by : 
 npm test
@@ -23,4 +28,3 @@ allure generate ./allure-results -o ./allure-report
 
 Open the generated report:
 allure open ./allure-report
-
