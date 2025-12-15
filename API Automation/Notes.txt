@@ -1,15 +1,14 @@
-Create a project folder:
-mkdir playwright-api-automation
-cd playwright-api-automation
+**API Automation tests to implement**
+Instructions:
+Create a project folder (Automation_Assessment_API) and open in VSCode.
 
-Initialize npm:
-npm init -y
-
-Install Playwright:
-npm install -D @playwright/test
+Run in terminal :
 npx playwright install
+npm install -D @playwright/test
 
-
+Transfer the files(tests folder, playwright.config, helpers)
+from /Automation_Assessment-main/Automation_Assessment-main/API Automation
+to Automation_Assessment_API folder
 
 Run all tests:
 npx playwright test
